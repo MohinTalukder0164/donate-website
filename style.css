@@ -1,0 +1,35 @@
+.cover-text {
+    text-align: center;
+    padding: 10%;
+}
+
+.cover {
+    background-image: url(images/donation2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover h1 {
+    font-size: 60px;
+    color: rgb(209, 156, 58);
+    font-weight: 1500;
+}
+
+.cover p {
+    font-size: 25px;
+    color: rgb(241, 9, 9);
+}
+
+.link-button {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(238, 89, 63);
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 15px;
+}
