@@ -1,3 +1,7 @@
+body {
+    margin: 0%;
+}
+
 .cover-text {
     text-align: center;
     padding: 10%;
@@ -68,5 +72,126 @@
 
 #shadow {
     border: 3px solid orangered;
+    color: orangered;
+}
+
+.mission-head h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5rem;
+}
+
+.mission-head p {
+    padding: 40px;
+    color: rgb(95, 92, 92);
+    font-size: 20px;
+    text-align: center;
+}
+
+.mission-main {
+    display: flex;
+}
+
+.mission-text h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.reci-head h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mission-main {
+    display: flex;
+    margin: 0 100px 0 100px;
+}
+
+.mission-image {
+    width: 50%;
+}
+
+.mission-item-1 {
+    width: 50%;
+    padding: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(214, 224, 224);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mission-item-2 {
+    width: 50%;
+    padding: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(238, 204, 221);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mission-item-3 {
+    width: 50%;
+    padding: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(250, 237, 218);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.contact p {
+    padding: 20px;
+    color: rgb(95, 92, 92);
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: rgb(238, 89, 63);
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ecd672;
+    padding: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+
+}
+
+#footer-main {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-text h1 {
+    text-align: center;
+    font-family: 'Praise', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.footer-text p {
+    text-align: center;
+    color: white;
+}
+
+.footer-h1 {
     color: orangered;
 }
